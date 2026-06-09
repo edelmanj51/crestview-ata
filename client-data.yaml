@@ -102,7 +102,7 @@ PROGRAM_6_AUDIENCE_ADULTS: ""
 PROGRAM_6_AUDIENCE_KIDS: ""
 PROGRAM_6_AUDIENCE_TEENS: ""
 
-CLASS_SCHEDULE_HTML: "<table class=\"schedule-table\"><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody><tr><td>Monday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Tuesday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Wednesday</td><td>4:00 - 8:15 PM</td></tr><tr><td>Thursday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Friday</td><td>4:00 - 6:45 PM</td></tr><tr><td>Saturday - Sunday</td><td>Closed</td></tr></tbody></table>"
+CLASS_SCHEDULE_HTML: "<table class=\"schedule-table\"><thead><tr><th>Class</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th></tr></thead><tbody><tr><td>Tigers <small>(Ages 4–6)</small></td><td>4:45 PM</td><td>4:45 PM</td><td>—</td><td>4:45 PM</td></tr><tr><td>Kids <small>(Ages 7–12)</small></td><td>5:00 PM</td><td>5:00 PM</td><td>4:45 PM</td><td>—</td></tr><tr><td>Teens &amp; Adults <small>(Ages 13+)</small></td><td>7:00 PM</td><td>7:00 PM</td><td>—</td><td>7:00 PM</td></tr></tbody></table>"
 
 REVIEWER_1_NAME: "Beverly Nichols"
 REVIEWER_1_DATE: "3 years ago"
@@ -123,6 +123,9 @@ REVIEWER_4_TEXT: "I love Crestview ATA because you learn how to defend yourself.
 REVIEWER_5_NAME: "ixhabi X wong"
 REVIEWER_5_DATE: "6 years ago"
 REVIEWER_5_TEXT: "I went for the trial class and I love it. The class is really fun, the instructors are super friendly and they really teach TKD. They encourage principles in everybody that attends. If you have a kid or are an adult I recommend this school 100%."
+
+QUICK_TOUR_HERO_IMAGE: "images/quick-tour/class.webp"
+QUICK_TOUR_GALLERY: "<div class=\"gallery-item\"><div class=\"gallery-photo\"><img src=\"images/quick-tour/exterior.jpg\" alt=\"Crestview ATA exterior\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover\"></div><div class=\"gallery-caption\"><h3>Our Location</h3><p>1025 S Ferdon Blvd, Crestview, FL</p></div></div><div class=\"gallery-item\"><div class=\"gallery-photo\"><img src=\"images/quick-tour/class.webp\" alt=\"Class in action at Crestview ATA\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover\"></div><div class=\"gallery-caption\"><h3>Class in Action</h3><p>All ages and skill levels welcome</p></div></div><div class=\"gallery-item\"><div class=\"gallery-photo\"><img src=\"images/quick-tour/ceremony.webp\" alt=\"Belt ceremony at Crestview ATA\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover\"></div><div class=\"gallery-caption\"><h3>Belt Ceremony</h3><p>Celebrating every student's achievement</p></div></div>"
 
 TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
 STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
