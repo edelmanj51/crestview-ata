@@ -1,103 +1,80 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Combat Boost v5 — client-data.yaml for Crestview ATA Martial Arts
-# Fill every field before running: node fill-template.js
-# Run node fill-template.js --check to validate without building
 # ─────────────────────────────────────────────────────────────────────────────
 
-# ── Identity ──────────────────────────────────────────────────────────────────
-SLUG: "crestview-ata"                         # Folder name, GitHub repo, Cloudflare Pages project
-GOOGLE_PLACE_ID: ""                     # From Places API lookup — e.g. ChIJtest123
+SLUG: "crestview-ata"
+GOOGLE_PLACE_ID: "ChIJ9Qop9FxzkYgRJwphr7zofjM"
 SCHOOL_NAME: "Crestview ATA Martial Arts"
-MARTIAL_ART: ""                         # e.g. Brazilian Jiu-Jitsu, Karate, Taekwondo, MMA
-SITE_URL: "https://www.kickwithata.com"       # Full URL with https://
+MARTIAL_ART: "Taekwondo"
+SITE_URL: "https://kickwithata.com"
 DOMAIN: "kickwithata.com"
 
-# ── Location ──────────────────────────────────────────────────────────────────
-CITY: ""
-STATE: ""                               # 2-letter abbreviation, e.g. MD
-ZIP: ""
-ADDRESS_LINE_1: ""
+CITY: "Crestview"
+STATE: "FL"
+ZIP: "32536"
+ADDRESS_LINE_1: "1025 S Ferdon Blvd"
 
-# ── Contact ───────────────────────────────────────────────────────────────────
-PHONE: ""                               # Format: (555) 555-5555
+PHONE: "(850) 682-2821"
 EMAIL: ""
-HOURS: ""                               # e.g. Mon–Fri 4pm–9pm · Sat 10am–2pm
+HOURS: "Mon-Tue & Thu 4:00-8:45pm · Wed 4:00-8:15pm · Fri 4:00-6:45pm"
 
-# ── Founding year (optional — leave blank if new school) ──────────────────────
-YEAR_FOUNDED: ""
+YEAR_FOUNDED: "1992"
 
-# ── Branding ──────────────────────────────────────────────────────────────────
-PRIMARY_COLOR: ""                       # e.g. #cc0000
-SECONDARY_COLOR: ""                     # e.g. #ffc700
-LOGO_IMAGE: brand_assets/logo.png       # Drop logo.png in brand_assets/ — auto-populated
-FACEBOOK_URL: ""                        # Full URL or leave blank
-INSTAGRAM_URL: ""                       # Full URL or leave blank
+PRIMARY_COLOR: "#FF0500"
+SECONDARY_COLOR: "#1B1B1B"
+LOGO_IMAGE: brand_assets/logo.png
+FACEBOOK_URL: ""
+INSTAGRAM_URL: ""
 
-# ── Hero section ──────────────────────────────────────────────────────────────
-# Drop hero.jpg in images/hero/ — HERO_IMAGE is auto-populated
-HERO_HEADLINE: ""                       # Main headline, e.g. "Train Like a Champion"
-HERO_SUBHEADLINE: ""                    # Optional subheadline below main headline
-HERO_SUBTEXT: ""                        # Supporting copy below the headline
+HERO_HEADLINE: "Crestview's ATA Martial Arts Academy"
+HERO_SUBHEADLINE: "Songahm Taekwondo for Kids, Teens & Adults in Crestview, FL"
+HERO_SUBTEXT: "Building confident leaders since 1992. Programs for ages 4 through adult — no experience needed."
 
-# ── Social proof ──────────────────────────────────────────────────────────────
-# SHOW_PROOF_BAR: set to "false" for new schools or unverified review counts
 SHOW_PROOF_BAR: "true"
-STAR_RATING: ""                         # From Google — must include decimal, e.g. 4.9
-REVIEW_COUNT: ""                        # Plain integer, e.g. 47 (no + symbol)
+STAR_RATING: "4.9"
+REVIEW_COUNT: "33"
 
-# ── About section ─────────────────────────────────────────────────────────────
-ABOUT_TEXT: ""                          # 2 sentences about the school and community
+ABOUT_TEXT: "Crestview ATA Martial Arts has been empowering Crestview families through Songahm Taekwondo since 1992, offering structured programs for ages 4 through adult in a 5,000-square-foot climate-controlled facility on S Ferdon Blvd. As part of the ATA — the world's largest martial arts organization with over 1 million students trained since 1969 — Crestview ATA combines a proven curriculum with deeply personal instruction that builds confidence, discipline, and real-world self-defense skills."
 
-# ── Instructor 1 (required) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-1/ — auto-populated
-INSTRUCTOR_1_NAME: ""
-INSTRUCTOR_1_TITLE: ""                  # e.g. Head Instructor & 4th Degree Black Belt
-INSTRUCTOR_1_BIO: ""                    # 2-3 sentences, third person
+INSTRUCTOR_1_NAME: "Chief Master Darrin Palmer"
+INSTRUCTOR_1_TITLE: "Owner & Head Instructor · 8th Degree Black Belt"
+INSTRUCTOR_1_BIO: "Chief Master Darrin Palmer began his martial arts journey as a child, earning his way to an 8th Degree Black Belt and founding the Crestview location in 1992 with a mission to empower individuals of all ages through the transformative power of martial arts. Over three decades later, he oversees five ATA schools across Northwest Florida, personally mentoring instructors and students at each location. His teaching philosophy centers on the belief that martial arts is a road map to confidence, leadership, and a better life."
 
-# ── Instructor 2 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-2/ — auto-populated
 INSTRUCTOR_2_NAME: ""
 INSTRUCTOR_2_TITLE: ""
 INSTRUCTOR_2_BIO: ""
 
-# ── Instructor 3 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-3/ — auto-populated
 INSTRUCTOR_3_NAME: ""
 INSTRUCTOR_3_TITLE: ""
 INSTRUCTOR_3_BIO: ""
 
-# ── Program 1 (required) ──────────────────────────────────────────────────────
-# Drop photo in images/programs/program-1/ named main.jpg — auto-populated
-PROGRAM_1_NAME: ""
-PROGRAM_1_AGE_RANGE: ""                 # e.g. Ages 5–12
-PROGRAM_1_DAYS: ""                      # e.g. Mon & Wed / Tue & Thu
-PROGRAM_1_SESSION_LEN: ""              # e.g. 60-min classes
-PROGRAM_1_DESCRIPTION: ""              # 1-2 sentences
-PROGRAM_1_AUDIENCE_ADULTS: ""          # Set to "1" if adult program (shows adult gains copy)
-PROGRAM_1_AUDIENCE_KIDS: ""            # Set to "1" if kids program
-PROGRAM_1_AUDIENCE_TEENS: ""           # Set to "1" if teens program
+PROGRAM_1_NAME: "ATA Tigers"
+PROGRAM_1_AGE_RANGE: "Ages 4-6"
+PROGRAM_1_DAYS: "Mon, Tue, Wed & Thu"
+PROGRAM_1_SESSION_LEN: "30-min classes"
+PROGRAM_1_DESCRIPTION: "Our youngest students build a strong foundation in courtesy, respect, and discipline through age-appropriate Taekwondo activities — in a fun, safe environment designed specifically for little ones ages 4-6."
+PROGRAM_1_AUDIENCE_ADULTS: ""
+PROGRAM_1_AUDIENCE_KIDS: "1"
+PROGRAM_1_AUDIENCE_TEENS: ""
 
-# ── Program 2 (optional) ──────────────────────────────────────────────────────
-PROGRAM_2_NAME: ""
-PROGRAM_2_AGE_RANGE: ""
-PROGRAM_2_DAYS: ""
-PROGRAM_2_SESSION_LEN: ""
-PROGRAM_2_DESCRIPTION: ""
+PROGRAM_2_NAME: "Karate for Kids"
+PROGRAM_2_AGE_RANGE: "Ages 7-12"
+PROGRAM_2_DAYS: "Mon, Tue, Wed, Thu & Fri"
+PROGRAM_2_SESSION_LEN: "45-min classes"
+PROGRAM_2_DESCRIPTION: "The ATA's flagship kids program builds positive mental attitude, high goal-setting skills, and unshakeable confidence — while teaching real Taekwondo techniques through the proven Songahm belt system."
 PROGRAM_2_AUDIENCE_ADULTS: ""
-PROGRAM_2_AUDIENCE_KIDS: ""
+PROGRAM_2_AUDIENCE_KIDS: "1"
 PROGRAM_2_AUDIENCE_TEENS: ""
 
-# ── Program 3 (optional) ──────────────────────────────────────────────────────
-PROGRAM_3_NAME: ""
-PROGRAM_3_AGE_RANGE: ""
-PROGRAM_3_DAYS: ""
-PROGRAM_3_SESSION_LEN: ""
-PROGRAM_3_DESCRIPTION: ""
-PROGRAM_3_AUDIENCE_ADULTS: ""
+PROGRAM_3_NAME: "Teens & Adults Taekwondo"
+PROGRAM_3_AGE_RANGE: "Ages 13+"
+PROGRAM_3_DAYS: "Mon-Fri"
+PROGRAM_3_SESSION_LEN: "60-min classes"
+PROGRAM_3_DESCRIPTION: "High-intensity fitness combined with real self-defense strategies that apply in today's world — the ATA adult program develops you mentally and physically and is the perfect alternative to a boring gym routine."
+PROGRAM_3_AUDIENCE_ADULTS: "1"
 PROGRAM_3_AUDIENCE_KIDS: ""
 PROGRAM_3_AUDIENCE_TEENS: ""
 
-# ── Program 4 (optional) ──────────────────────────────────────────────────────
 PROGRAM_4_NAME: ""
 PROGRAM_4_AGE_RANGE: ""
 PROGRAM_4_DAYS: ""
@@ -107,7 +84,6 @@ PROGRAM_4_AUDIENCE_ADULTS: ""
 PROGRAM_4_AUDIENCE_KIDS: ""
 PROGRAM_4_AUDIENCE_TEENS: ""
 
-# ── Program 5 (optional) ──────────────────────────────────────────────────────
 PROGRAM_5_NAME: ""
 PROGRAM_5_AGE_RANGE: ""
 PROGRAM_5_DAYS: ""
@@ -117,7 +93,6 @@ PROGRAM_5_AUDIENCE_ADULTS: ""
 PROGRAM_5_AUDIENCE_KIDS: ""
 PROGRAM_5_AUDIENCE_TEENS: ""
 
-# ── Program 6 (optional) ──────────────────────────────────────────────────────
 PROGRAM_6_NAME: ""
 PROGRAM_6_AGE_RANGE: ""
 PROGRAM_6_DAYS: ""
@@ -127,34 +102,32 @@ PROGRAM_6_AUDIENCE_ADULTS: ""
 PROGRAM_6_AUDIENCE_KIDS: ""
 PROGRAM_6_AUDIENCE_TEENS: ""
 
-# ── Class schedule (optional — builds the full schedule table on schedules.html)
-CLASS_SCHEDULE_HTML: ""                 # Full HTML table. Leave blank if no schedule yet.
+CLASS_SCHEDULE_HTML: "<table class=\"schedule-table\"><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody><tr><td>Monday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Tuesday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Wednesday</td><td>4:00 - 8:15 PM</td></tr><tr><td>Thursday</td><td>4:00 - 8:45 PM</td></tr><tr><td>Friday</td><td>4:00 - 6:45 PM</td></tr><tr><td>Saturday - Sunday</td><td>Closed</td></tr></tbody></table>"
 
-# ── Google reviewers (optional — up to 10) ────────────────────────────────────
-# REVIEWER_1_INITIAL is computed automatically from REVIEWER_1_NAME
-REVIEWER_1_NAME: ""
-REVIEWER_1_DATE: ""                     # e.g. 2 months ago
-REVIEWER_1_TEXT: ""
+REVIEWER_1_NAME: "Beverly Nichols"
+REVIEWER_1_DATE: "3 years ago"
+REVIEWER_1_TEXT: "Crestview ATA has been the most awesome experience for my grandson! He has grown and matured into a very respectable young man (8 years old) as a result of the wonderful, caring and knowledgeable instructors in the art of Tae Kwon Do."
 
-REVIEWER_2_NAME: ""
-REVIEWER_2_DATE: ""
-REVIEWER_2_TEXT: ""
+REVIEWER_2_NAME: "Colleen Meeks"
+REVIEWER_2_DATE: "8 years ago"
+REVIEWER_2_TEXT: "Crestview ATA is wonderful! My daughter can't wait for class every day and really enjoys the classes and all of her instructors. They treat you like family, that's for sure! The school's schedule enables flexibility for busy families."
 
-REVIEWER_3_NAME: ""
-REVIEWER_3_DATE: ""
-REVIEWER_3_TEXT: ""
+REVIEWER_3_NAME: "Demas Huckaba"
+REVIEWER_3_DATE: "7 years ago"
+REVIEWER_3_TEXT: "ATA Martial Arts is awesome. The people there are very knowledgeable and the instructors are fantastic. The environment gives off positivity. One of the many ways this place can be described is Life Changing."
 
-# Add REVIEWER_4 through REVIEWER_10 as needed (same structure)
+REVIEWER_4_NAME: "Rebecca G"
+REVIEWER_4_DATE: "8 years ago"
+REVIEWER_4_TEXT: "I love Crestview ATA because you learn how to defend yourself. The instructors really care about the kids: build self confidence, teach respect, discipline, honesty, self control. What I love most is that at the end of class I know I got plenty of exercise."
 
-# ── GHL Webhooks (required — set these before the final build) ────────────────
-# Get these from GHL: Sub-account → Settings → Integrations → Webhooks
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+REVIEWER_5_NAME: "ixhabi X wong"
+REVIEWER_5_DATE: "6 years ago"
+REVIEWER_5_TEXT: "I went for the trial class and I love it. The class is really fun, the instructors are super friendly and they really teach TKD. They encourage principles in everybody that attends. If you have a kid or are an adult I recommend this school 100%."
 
-# Get from GHL: Sub-account → Calendars → [Calendar] → Embed → Group Widget URL
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
 
-# ── Privacy policy ────────────────────────────────────────────────────────────
-PRIVACY_POLICY_URL: "https://www.kickwithata.com/privacy"
+PRIVACY_POLICY_URL: "https://kickwithata.com/privacy-policy"
