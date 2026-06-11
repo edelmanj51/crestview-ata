@@ -877,7 +877,7 @@
 ============================================================ -->
 <section id="instructor" aria-label="Head Instructor">
   <div class="section-header reveal" style="max-width:700px;margin:0 auto 48px">
-    <span class="eyebrow">Meet Your Instructor</span>
+    <span class="eyebrow">Meet Your Instructors</span>
     <h2 class="section-title">Expert Instruction, Proven Results</h2>
     <p class="section-sub">[ABOUT_TEXT]</p>
   </div>
@@ -898,6 +898,22 @@
       </div>
     </div>
   </div>
+
+<!-- [IF:INSTRUCTOR_2_NAME] -->
+  <div class="instructor-inner" style="margin-top:48px">
+    <!-- [IF:INSTRUCTOR_2_PHOTO] -->
+    <div class="instructor-photo reveal">
+      <img src="[INSTRUCTOR_2_PHOTO]" alt="[INSTRUCTOR_2_NAME], [INSTRUCTOR_2_TITLE]" loading="lazy" onerror="this.closest('.instructor-photo').style.display='none';this.closest('.instructor-inner').style.gridTemplateColumns='1fr'">
+      <div class="instructor-badge">[INSTRUCTOR_2_TITLE]</div>
+    </div>
+    <!-- [/IF:INSTRUCTOR_2_PHOTO] -->
+    <div class="instructor-content reveal">
+      <h2 class="instructor-name">[INSTRUCTOR_2_NAME]</h2>
+      <p class="instructor-credential">[INSTRUCTOR_2_TITLE]</p>
+      <p class="instructor-bio">[INSTRUCTOR_2_BIO]</p>
+    </div>
+  </div>
+<!-- [/IF:INSTRUCTOR_2_NAME] -->
 </section>
 
 
