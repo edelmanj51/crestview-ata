@@ -127,10 +127,10 @@ REVIEWER_5_TEXT: "I went for the trial class and I love it. The class is really 
 QUICK_TOUR_HERO_IMAGE: "images/quick-tour/class.webp"
 QUICK_TOUR_GALLERY: "<div class=\"gallery-item\"><div class=\"gallery-photo\"><img src=\"images/quick-tour/exterior.jpg\" alt=\"Crestview ATA exterior\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover\"></div><div class=\"gallery-caption\"><h3>Our Location</h3><p>1025 S Ferdon Blvd, Crestview, FL</p></div></div><div class=\"gallery-item\"><div class=\"gallery-photo\"><img src=\"images/quick-tour/class.webp\" alt=\"Class in action at Crestview ATA\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover\"></div><div class=\"gallery-caption\"><h3>Class in Action</h3><p>All ages and skill levels welcome</p></div></div>"
 
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/1cGB4xJToqGjdW1FLdqq/webhook-trigger/oe8v3ZJQ075owRRGUoUn"
+STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/1cGB4xJToqGjdW1FLdqq/webhook-trigger/oe8v3ZJQ075owRRGUoUn"
+QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/1cGB4xJToqGjdW1FLdqq/webhook-trigger/oe8v3ZJQ075owRRGUoUn"
+FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/1cGB4xJToqGjdW1FLdqq/webhook-trigger/oe8v3ZJQ075owRRGUoUn"
+BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/ZWZadITbiA6nimHFPj3f"
 
 PRIVACY_POLICY_URL: "https://kickwithata.com/privacy-policy"
